@@ -5,8 +5,10 @@ import Nav from "./Nav";
 
 function Header() {
  return (
-    //include navigation feature
-    //include resume pdf
+   <div>
+   <h1>Hannah Alverson</h1>
+   <Nav />
+   </div>
  )
 }
 
