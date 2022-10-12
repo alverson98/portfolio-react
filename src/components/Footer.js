@@ -21,6 +21,7 @@ function Footer() {
       >
         LinkedIn
       </a>
+      {/* Change link to stack overflow */}
       <a
         class="btn btn-primary"
         href="https://www.google.com/"
