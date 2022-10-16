@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 //popper for dropdown button
 import ElementPopper from "react-element-popper";
@@ -22,15 +23,15 @@ function Nav() {
 
   return (
     <nav class="navbar">
-      <button class="btn" type="button" href="">
+      <Link className="btn" to={"/"}>
         About Me
-      </button>
-      <button class="btn" type="button" href="">
+      </Link>
+      <Link className="btn" to={"/projects"}>
         Projects
-      </button>
-      <button class="btn" type="button" href="">
-        Projects
-      </button>
+      </Link>
+      <Link className="btn" to={"/contact"}>
+        Contact Me
+      </Link>
       <ElementPopper
         element={resumeButton}
         popper={active && option}
