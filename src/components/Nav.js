@@ -40,7 +40,7 @@ function Nav() {
 
   return (
     <nav className="navbar d-flex">
-      <Link className="nav-btn btn btn-light" to={"/"}>
+      <Link className="nav-btn btn btn-light" to={"/about"}>
         About Me
       </Link>
       <Link className="project-btn nav-btn btn btn-light" to={"/projects"}>
