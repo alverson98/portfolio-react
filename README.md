@@ -1,13 +1,14 @@
 # Hannah Portfolio Made with React: portfolio-react
+
 Module 20 React Challenge: React Portfolio
 
 ---
 
 ## Description
 
+This portfolio was built to showcase all of the applications that I have created throughout my career. I am a recent graduate of the DU Coding Boot Camp, so I don't have many deployed applications. However, I am consistently working on new projects that will be added as they are completed.
 
-
-
+This portfolio was built using react and only showcases the front-end capabilities. My plans for the future is to add back-end functionality, update/ add better designs, and showcase more personal projects completed outside the boot camp.
 
 Tools used to complete this project:
 
@@ -25,12 +26,11 @@ To install the application:
 2. Click the code dropdown button, select the preferred cloning method, and clone code to device.
 3. Open the cloned code in preferred code editor.
 4. Install Node.js packages.
-6. Run `npm start` to launch the app on localhost port.
+5. Run `npm start` to launch the app on localhost port.
 
 ## Usage
 
 Here is the current appearance of the portfolio:
-
 
 Using insomnia to test all routes:
 
