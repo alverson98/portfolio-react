@@ -17,7 +17,7 @@ function Project() {
                 <h5 className="card-title">Trip $plit</h5>
                 <a
                   href="https://github.com/alverson98/trip_split"
-                  className="btn btn-primary mt-auto"
+                  className="btn btn-light mt-auto"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -25,7 +25,7 @@ function Project() {
                 </a>
                 <a
                   href="https://trip-split-atoz.herokuapp.com/"
-                  className="btn btn-primary"
+                  className="btn btn-light"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -45,7 +45,7 @@ function Project() {
                 <h5 className="card-title">Middle-Where</h5>
                 <a
                   href="https://github.com/alverson98/middleWhere"
-                  className="btn btn-primary mt-auto"
+                  className="btn btn-light mt-auto"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -53,7 +53,7 @@ function Project() {
                 </a>
                 <a
                   href="https://limitless-temple-38712.herokuapp.com/"
-                  className="btn btn-primary"
+                  className="btn btn-light"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -75,7 +75,7 @@ function Project() {
                 <h5 className="card-title">FiHub</h5>
                 <a
                   href="https://github.com/alverson98/FiHub"
-                  className="btn btn-primary mt-auto"
+                  className="btn btn-light mt-auto"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -83,7 +83,7 @@ function Project() {
                 </a>
                 <a
                   href="https://alverson98.github.io/FiHub/"
-                  className="btn btn-primary"
+                  className="btn btn-light"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -103,7 +103,7 @@ function Project() {
                 <h5 className="card-title">Weather Dashboard</h5>
                 <a
                   href="https://github.com/alverson98/weather-forecast-data"
-                  className="btn btn-primary mt-auto"
+                  className="btn btn-light mt-auto"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -111,7 +111,7 @@ function Project() {
                 </a>
                 <a
                   href="https://alverson98.github.io/weather-forecast-data/"
-                  className="btn btn-primary"
+                  className="btn btn-light"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -133,7 +133,7 @@ function Project() {
                 <h5 className="card-title">Work Schedule</h5>
                 <a
                   href="https://github.com/alverson98/work-schedule"
-                  className="btn btn-primary mt-auto"
+                  className="btn btn-light mt-auto"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -141,7 +141,7 @@ function Project() {
                 </a>
                 <a
                   href="https://alverson98.github.io/work-schedule/"
-                  className="btn btn-primary"
+                  className="btn btn-light"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -161,7 +161,7 @@ function Project() {
                 <h5 className="card-title">Coding Quiz</h5>
                 <a
                   href="https://github.com/alverson98/code-quiz"
-                  className="btn btn-primary mt-auto"
+                  className="btn btn-light mt-auto"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -169,7 +169,7 @@ function Project() {
                 </a>
                 <a
                   href="https://alverson98.github.io/code-quiz/"
-                  className="btn btn-primary"
+                  className="btn btn-light"
                   target="_blank"
                   rel="noreferrer"
                 >
