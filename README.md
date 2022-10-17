@@ -32,8 +32,6 @@ To install the application:
 
 Here is the current appearance of the portfolio:
 
-Using insomnia to test all routes:
-
 ![Screenshot of about me page](./src/assets/about-me.png)
 
 ![Screenshot of portfolio page](./src/assets/project-page.png)
@@ -44,7 +42,7 @@ Using insomnia to test all routes:
 
 The portfolio is currently deployed through GitHub pages.
 
-[Link]() to deployed application.
+[Link](https://alverson98.github.io/portfolio-react/) to deployed application.
 
 ## Questions
 
