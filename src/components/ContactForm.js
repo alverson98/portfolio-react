@@ -10,10 +10,8 @@ function ContactForm() {
   const [emailAlert, setEmailAlert] = useState("");
   const [messageAlert, setMessageAlert] = useState("");
 
-  //Gathering input values
-  const handleInputChange = (e) => {
-    //Used to determine name and value of the target input
-    const { name, value } = e.target;
+  const alertOnClick = (e) => {
+    e.preventDefault();
 
     let emailRegex = /^([a-z0-9_.-]+)@([\da-z\.-]+)\.([a-z.]{2,6})$/;
     //boolean - true once matches regex
@@ -29,10 +27,35 @@ function ContactForm() {
       ? setFullNameAlert("Full Name is required.")
       : setFullNameAlert("");
 
-      //message is required
-      message === ""
+    //message is required
+    message === ""
       ? setMessageAlert("A message is required.")
       : setMessageAlert("");
+  };
+
+  //Gathering input values
+  const handleInputChange = (e) => {
+    let emailRegex = /^([a-z0-9_.-]+)@([\da-z\.-]+)\.([a-z.]{2,6})$/;
+    //boolean - true once matches regex
+    let isValidEmail = emailRegex.test(email);
+
+    //setting a message if the email is not valid
+    !isValidEmail
+      ? setEmailAlert("Please enter a valid email address.")
+      : setEmailAlert("");
+
+    //name is required
+    fullName === ""
+      ? setFullNameAlert("Full Name is required.")
+      : setFullNameAlert("");
+
+    //message is required
+    message === ""
+      ? setMessageAlert("A message is required.")
+      : setMessageAlert("");
+
+    //Used to determine name and value of the target input
+    const { name, value } = e.target;
 
     // eslint-disable-next-line default-case
     //determining the input the user is typing in
@@ -67,6 +90,7 @@ function ContactForm() {
             </label>
             <input
               onChange={handleInputChange}
+              onClick={alertOnClick}
               value={fullName}
               name="fullName"
               type="text"
@@ -74,6 +98,7 @@ function ContactForm() {
               id="name"
               className="form-control"
             />
+            <span>{fullNameAlert}</span>
           </div>
           <div className="mb-3">
             {/* Need to add email validation */}
@@ -82,6 +107,7 @@ function ContactForm() {
             </label>
             <input
               onChange={handleInputChange}
+              onClick={alertOnClick}
               value={email}
               name="email"
               type="text"
@@ -89,6 +115,7 @@ function ContactForm() {
               id="email"
               className="form-control"
             />
+            <span>{emailAlert}</span>
           </div>
           <div className="mb-3">
             <label className="form-label" htmlFor="message">
@@ -96,6 +123,7 @@ function ContactForm() {
             </label>
             <textarea
               onChange={handleInputChange}
+              onClick={alertOnClick}
               value={message}
               name="message"
               type="text"
@@ -103,6 +131,7 @@ function ContactForm() {
               id="message"
               className="form-control"
             />
+            <p>{messageAlert}</p>
           </div>
           <br />
           <button
@@ -115,13 +144,6 @@ function ContactForm() {
         </div>
       </form>
     </div>
-    //name
-    //email
-    //message
-
-    //INCLUDE
-    //notification if invalid email - regex
-    //notification of required fields when moving cursor out of input
   );
 }
 
