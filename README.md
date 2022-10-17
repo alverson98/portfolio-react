@@ -34,7 +34,7 @@ Here is the current appearance of the portfolio:
 
 ![Screenshot of about me page](./src/assets/about-me.png)
 
-![Screenshot of portfolio page](./src/assets/project-page.png)
+![Screenshot of portfolio page](./src/assets/project-page-edited.png)
 
 ![Screenshot of contact page](./src/assets/contact-page.png)
 
