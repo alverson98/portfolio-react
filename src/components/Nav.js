@@ -11,25 +11,40 @@ function Nav() {
   //Resume button
   const resumeButton = (
     //click changes the state - set active to true
-    <button onClick={toggleDropDown}>Resume</button>
+    <button
+      className="btn btn-light dropdown-toggle"
+      type="button"
+      onClick={toggleDropDown}
+    >
+      Resume
+    </button>
   );
 
   //Resume dropdown option
   const option = (
     <ul className="dropdown">
-      <li href="#">View or Download Resume</li>
+      <li>
+        <a
+          className="btn btn-light"
+          href={require("../assets/resume.pdf")}
+          target="_blank"
+          rel="noreferrer"
+        >
+          View or Download Resume
+        </a>
+      </li>
     </ul>
   );
 
   return (
-    <nav class="navbar">
-      <Link className="btn" to={"/"}>
+    <nav className="navbar">
+      <Link className="btn btn-light" to={"/"}>
         About Me
       </Link>
-      <Link className="btn" to={"/projects"}>
+      <Link className="btn btn-light" to={"/projects"}>
         Projects
       </Link>
-      <Link className="btn" to={"/contact"}>
+      <Link className="btn btn-light" to={"/contact"}>
         Contact Me
       </Link>
       <ElementPopper
