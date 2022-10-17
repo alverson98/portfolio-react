@@ -24,7 +24,7 @@ function Footer() {
       {/* Change link to stack overflow */}
       <a
         className="btn btn-light"
-        href="https://www.google.com/"
+        href="https://stackoverflow.com/users/19355584/hannah-alverson"
         role="button"
         target="_blank"
         rel="noreferrer"
