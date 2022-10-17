@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="d-flex">
       <a
-        class="btn btn-primary"
+        className="btn btn-light"
         href="https://github.com/alverson98"
         role="button"
         target="_blank"
@@ -13,7 +13,7 @@ function Footer() {
         GitHub
       </a>
       <a
-        class="btn btn-primary"
+        class="btn btn-light"
         href="https://www.linkedin.com/in/hannah-alverson-5a7892183"
         role="button"
         target="_blank"
@@ -23,7 +23,7 @@ function Footer() {
       </a>
       {/* Change link to stack overflow */}
       <a
-        class="btn btn-primary"
+        class="btn btn-light"
         href="https://www.google.com/"
         role="button"
         target="_blank"
