@@ -98,7 +98,7 @@ function ContactForm() {
               id="name"
               className="form-control"
             />
-            <span>{fullNameAlert}</span>
+            <span className="form-alert">{fullNameAlert}</span>
           </div>
           <div className="mb-3">
             {/* Need to add email validation */}
@@ -115,7 +115,7 @@ function ContactForm() {
               id="email"
               className="form-control"
             />
-            <span>{emailAlert}</span>
+            <span className="form-alert">{emailAlert}</span>
           </div>
           <div className="mb-3">
             <label className="form-label" htmlFor="message">
@@ -131,12 +131,12 @@ function ContactForm() {
               id="message"
               className="form-control"
             />
-            <p>{messageAlert}</p>
+            <span className="form-alert">{messageAlert}</span>
           </div>
           <br />
           <button
             onClick={handleFormSubmit}
-            className="btn btn-dark"
+            className="btn btn-light"
             type="submit"
           >
             Submit

@@ -3,7 +3,7 @@ import React from "react";
 function Project() {
   return (
     <div className="project-section">
-      <h2>Projects</h2>
+      <h2 className="project">Projects</h2>
       <div className="project-cards">
         <div className="row">
           <div className="col-lg-6 col-sm-12">
@@ -14,10 +14,10 @@ function Project() {
                 alt="Screenshot of trip split app"
               />
               <div className="card-body d-flex flex-column">
-                <h5 className="card-title">Trip $plit</h5>
+                <h5 className="card-title mt-auto text-center">Trip $plit</h5>
                 <a
                   href="https://github.com/alverson98/trip_split"
-                  className="btn btn-light mt-auto"
+                  className=" project-btn btn btn-light mt-auto"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -25,7 +25,7 @@ function Project() {
                 </a>
                 <a
                   href="https://trip-split-atoz.herokuapp.com/"
-                  className="btn btn-light"
+                  className="project-btn btn btn-light"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -42,10 +42,10 @@ function Project() {
                 alt="Screenshot of middle where home page"
               />
               <div className="card-body d-flex flex-column">
-                <h5 className="card-title">Middle-Where</h5>
+                <h5 className="card-title mt-auto text-center">Middle-Where</h5>
                 <a
                   href="https://github.com/alverson98/middleWhere"
-                  className="btn btn-light mt-auto"
+                  className="project-btn btn btn-light mt-auto"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -53,7 +53,7 @@ function Project() {
                 </a>
                 <a
                   href="https://limitless-temple-38712.herokuapp.com/"
-                  className="btn btn-light"
+                  className="project-btn btn btn-light"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -72,10 +72,10 @@ function Project() {
                 alt="Screenshot of FiHub"
               />
               <div className="card-body d-flex flex-column">
-                <h5 className="card-title">FiHub</h5>
+                <h5 className="card-title mt-auto text-center">FiHub</h5>
                 <a
                   href="https://github.com/alverson98/FiHub"
-                  className="btn btn-light mt-auto"
+                  className="project-btn btn btn-light mt-auto"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -83,7 +83,7 @@ function Project() {
                 </a>
                 <a
                   href="https://alverson98.github.io/FiHub/"
-                  className="btn btn-light"
+                  className="project-btn btn btn-light"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -100,10 +100,12 @@ function Project() {
                 alt="screenshot of weather dashboard"
               />
               <div className="card-body d-flex flex-column">
-                <h5 className="card-title">Weather Dashboard</h5>
+                <h5 className="card-title mt-auto text-center">
+                  Weather Dashboard
+                </h5>
                 <a
                   href="https://github.com/alverson98/weather-forecast-data"
-                  className="btn btn-light mt-auto"
+                  className="project-btn btn btn-light mt-auto"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -111,7 +113,7 @@ function Project() {
                 </a>
                 <a
                   href="https://alverson98.github.io/weather-forecast-data/"
-                  className="btn btn-light"
+                  className="project-btn btn btn-light"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -130,10 +132,12 @@ function Project() {
                 alt="screenshot of work schedule"
               />
               <div className="card-body d-flex flex-column">
-                <h5 className="card-title">Work Schedule</h5>
+                <h5 className="card-title mt-auto text-center">
+                  Work Schedule
+                </h5>
                 <a
                   href="https://github.com/alverson98/work-schedule"
-                  className="btn btn-light mt-auto"
+                  className="project-btn btn btn-light mt-auto"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -141,7 +145,7 @@ function Project() {
                 </a>
                 <a
                   href="https://alverson98.github.io/work-schedule/"
-                  className="btn btn-light"
+                  className="project-btn btn btn-light"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -158,10 +162,10 @@ function Project() {
                 alt="screenshot of coding quiz"
               />
               <div className="card-body d-flex flex-column">
-                <h5 className="card-title">Coding Quiz</h5>
+                <h5 className="card-title mt-auto text-center">Coding Quiz</h5>
                 <a
                   href="https://github.com/alverson98/code-quiz"
-                  className="btn btn-light mt-auto"
+                  className="project-btn btn btn-light mt-auto"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -169,7 +173,7 @@ function Project() {
                 </a>
                 <a
                   href="https://alverson98.github.io/code-quiz/"
-                  className="btn btn-light"
+                  className="project-btn btn btn-light"
                   target="_blank"
                   rel="noreferrer"
                 >

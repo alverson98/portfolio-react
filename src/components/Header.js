@@ -5,7 +5,7 @@ import Nav from "./Nav";
 
 function Header() {
  return (
-   <div>
+   <div id="header">
    <h1>Hannah Alverson</h1>
    <Nav />
    </div>

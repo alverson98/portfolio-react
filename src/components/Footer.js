@@ -2,9 +2,10 @@ import React from "react";
 
 function Footer() {
   return (
+    <div>
     <footer className="d-flex">
       <a
-        className="btn btn-light"
+        className="foot-btn btn btn-light"
         href="https://github.com/alverson98"
         role="button"
         target="_blank"
@@ -32,6 +33,7 @@ function Footer() {
         Stack Overflow
       </a>
     </footer>
+    </div>
   );
 }
 

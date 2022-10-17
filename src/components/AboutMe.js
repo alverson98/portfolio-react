@@ -4,9 +4,9 @@ function AboutMe() {
   return (
     <>
       {/* About me & img on left of screen */}
-      <div className="d-flex">
-        <div className="w-50 m-3">
-          <h2>About Me</h2>
+      <div className="row">
+        <div className="col-sm-12 col-lg-6">
+          <h2 className="about-title">About Me</h2>
           <div className="mb-3">
             {/* Add current image of myself */}
             <img
@@ -17,8 +17,8 @@ function AboutMe() {
           </div>
         </div>
         {/* This div on the right of about me & img */}
-        <div className="w-50 m-3">
-          <h2>Student</h2>
+        <div className="col-sm-12 col-lg-6">
+          <h2 className="about-header">Student</h2>
           <div className="mb-3">
             <p>
               I am currently a student at the Full-Stack University of Denver

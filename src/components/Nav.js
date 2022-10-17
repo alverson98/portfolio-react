@@ -5,10 +5,12 @@ import { Link } from "react-router-dom";
 import ElementPopper from "react-element-popper";
 
 function Nav() {
+  //used to determine button highlight
   const [active, setActive] = useState(false);
-  const toggleDropDown = () => setActive(!active);
 
   //Resume button
+  const toggleDropDown = () => setActive(!active);
+
   const resumeButton = (
     //click changes the state - set active to true
     <button
@@ -25,7 +27,7 @@ function Nav() {
     <ul className="dropdown">
       <li>
         <a
-          className="btn btn-light"
+          className="nav-btn btn btn-light"
           href={require("../assets/resume.pdf")}
           target="_blank"
           rel="noreferrer"
@@ -37,14 +39,14 @@ function Nav() {
   );
 
   return (
-    <nav className="navbar">
-      <Link className="btn btn-light" to={"/"}>
+    <nav className="navbar d-flex">
+      <Link className="nav-btn btn btn-light" to={"/"}>
         About Me
       </Link>
-      <Link className="btn btn-light" to={"/projects"}>
-        Projects
+      <Link className="project-btn nav-btn btn btn-light" to={"/projects"}>
+        Portfolio
       </Link>
-      <Link className="btn btn-light" to={"/contact"}>
+      <Link className="nav-btn btn btn-light" to={"/contact"}>
         Contact Me
       </Link>
       <ElementPopper
